@@ -44,3 +44,4 @@
 ```
 * Trả về *status = true* nếu thành công, ngược lại *false*.
 
+## Thông tin về connect **database** có thể chỉnh sửa trong file `DBconnection.js`

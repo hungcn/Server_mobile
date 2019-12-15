@@ -1,5 +1,6 @@
 const mysql = require('mysql');
 
+// Connect to database in localhost phpAdmin mySql
 const pool = mysql.createPool({
     connectionLimit: 10,
     host: 'localhost',
