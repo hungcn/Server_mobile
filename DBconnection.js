@@ -12,5 +12,5 @@ function sql_connection() {
     return pool;
 }
 
-module.exports = sql_connection;
+module.exports = sql_connection();
 

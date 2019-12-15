@@ -13,8 +13,9 @@ var Student = {
     deleteStudent: function (mssv, callback) {
         return db.query("DELETE FROM student WHERE mssv=?", [mssv], callback);
     },
-    updateStudent: function (student, callback) {
-        return db.query("UPDATE student SET HoTen=? WHERE mssv=?", [student.hoten, student.mssv], callback);
+    updateStudent: function (mssv, student, callback) {
+        return db.query("UPDATE student SET HoTen=? WHERE mssv=?", [student.hoten, mssv], callback);
     }
 };
+
 module.exports = Student;
