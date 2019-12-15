@@ -4,8 +4,8 @@
 
 ```json
 {
-    "status": true / false,
-    "result": dữ liệu trả về nếu có (có thể có thuộc tính này hoặc không)
+    "status": "true hoặc false",
+    "result": "dữ liệu trả về nếu có (có thể có thuộc tính này hoặc không)"
 }
 ```
 
